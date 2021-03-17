@@ -33,11 +33,11 @@ Test-VM|Datastore_NFS|192.168.1.1|Datastore_NFS|PortGroup-1|Shared_datastore
    - DstDS     :  The datastore in vSphere 6.5 which the VM will be finally reside. 
 
 4.  Command exapmles:
-   - Input password from prompt
+    - Input password from prompt
 ```powershell
 ./moveVM_batch_from55to65.ps1 -Path vm_list.csv
 ```
-   - Store password in a text file and read from it
+    - Store password in a text file and read from it
 
 ```powershell
 # First generate the masked password using 
