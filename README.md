@@ -28,11 +28,11 @@ Test-VM|Datastore_NFS|192.168.1.1|Datastore_NFS|PortGroup-1|Shared_datastore
 
 3. The columns 
 
- - VMName    :  The name of VM which to be moved.
- - SrcNfsDS  :  The NFS datastore in vSphere 5.5.
- - IpAddr    :  The ip address of the VM.
- - DstNfsDs  :  The destination NFS datastore.
- - DstPortGP :  The port group of the VM in vSphere 6.5.
- - DstDS     :  The datastore in vSphere 6.5 which the VM will be finally reside. 
+   - VMName    :  The name of VM which to be moved.
+   - SrcNfsDS  :  The NFS datastore in vSphere 5.5.
+   - IpAddr    :  The ip address of the VM.
+   - DstNfsDs  :  The destination NFS datastore.
+   - DstPortGP :  The port group of the VM in vSphere 6.5.
+   - DstDS     :  The datastore in vSphere 6.5 which the VM will be finally reside. 
 
 5.  
